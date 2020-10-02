@@ -1,0 +1,223 @@
+/* css styles for whole document */
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    width: 100%;
+    background-color: rgb(192, 190, 190);
+}
+i
+{
+    color: brown;
+    font-size: 20px;
+}
+
+
+/* Header Styles */
+header
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 221, 221);
+}
+.logo
+{
+    margin-left: 50px;
+}
+.navlinks
+{
+    display: flex;
+    margin: 0px 40px 0px 0px;
+}
+.navlinks li
+{
+    list-style: none;
+    padding: 5px;
+}
+.navlinks li a
+{
+    color: brown;
+    font-size: 14px;
+}
+.navlinks li a i
+{
+    padding-right: 8px;
+    color: brown;
+}
+.navlinks li:hover
+{
+    border-bottom: 2px solid brown;
+}
+
+
+/* Content Styles */
+.wrapper
+{
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid brown;
+}
+
+
+/* First grid item styles */
+#one
+{
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Second grid item styles */
+#two
+{
+    grid-row: 1/2;
+    color: rgb(97, 33, 33);
+}
+#two p
+{
+    padding-top: 20px;
+}
+#two p i
+{
+    margin-right: 5px;
+}
+
+
+/* Third grid item styles */
+#three
+{
+    grid-row: 3/4;
+}
+#three h4
+{
+    width: 97%;
+    padding: 5px;
+    border-bottom: 1px solid rgb(102, 100, 100);
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+.content
+{
+    width: 100%
+}
+.price
+{
+    width: 100%;
+}
+.detail
+{
+    display: inline-block;
+    border:4px double rgb(163, 158, 158);
+    border-radius: 5px;
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0px;
+    font-size: 1em;
+}
+.detail input
+{
+    width: 10%;
+    margin-right: 2%;
+}
+.detail label
+{
+    width: 88%;
+}
+.price i
+{
+    width: 10%;
+    
+}
+#total
+{
+    width: 70%;
+    padding: 10px 25px;
+    background-color: rgb(104, 24, 24);
+    font-size: 15px;
+    color: white;
+    margin: 40px 0px;
+    border-radius: 3px;
+}
+#three span
+{
+    margin-left: 3%;
+}
+
+
+
+/* Grid item four styles */
+#four   
+{
+    grid-row: 2/4;
+    margin-top: 20px;
+    border-top: 1px solid rgb(102, 100, 100);
+    padding:20px 0px;
+}
+form
+{
+    width: 96%;
+    margin: 0 auto;
+}
+#four input,label
+{
+    padding:10px 0px;
+}
+form label
+{
+    display: inline-block;
+    width: 25%;
+    margin-right: 10px;
+    text-align: right;
+}
+.time
+{
+    display: flex;  
+}
+#four button
+{
+    padding: 6px;
+    width: 35%;
+    margin-left:65%;
+    background-color: rgb(104, 24, 24);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.time label
+{
+    padding: 0px;
+}
+.time span
+{
+    margin-left: 5px;
+}
+#message
+{
+    height: 100px;
+    width: 70%;
+}
+form h5
+{
+    margin-left:28%;
+    font-weight: normal;
+}
